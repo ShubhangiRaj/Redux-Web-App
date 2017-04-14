@@ -7,7 +7,7 @@ class Photo extends Component {
 		const {post, i, comments} = this.props;
 		return(
 			<figure className="grid-figure">
-				<div clasName="grid-photo-wrap">
+				<div className="grid-photo-wrap">
 					<Link to={`/view/${post.code}`}>
 						<img src={post.display_src} alt={post.caption} className="grid-photo" />
 					</Link>

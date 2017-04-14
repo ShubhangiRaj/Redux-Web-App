@@ -20,3 +20,5 @@ export default Main;
 
 
 // {this.props.children} is going to be populated by react-router
+
+// this is the presentational componenet and need to infuse it with action creator and data

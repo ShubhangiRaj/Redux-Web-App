@@ -5,10 +5,11 @@ class PhotoGrid extends Component {
 	render(){
 		return(
 			<div className="photo-grid">
-				{this.props.posts.map((posts, i) => <Photo/>)}
+				{this.props.posts.map((posts, i) => <Photo {...this.props} key={i} i={i} post={posts}/>)}
 			</div>
 		);
 	}
 }
 
 export default PhotoGrid;
+
